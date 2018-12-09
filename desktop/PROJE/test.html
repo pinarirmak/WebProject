@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Irmak Menu</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+        <div id="mavi" class="kutu"> </div>
+        <div id="yeşil" class="kutu"></div>
+        <div id="sari" class="kutu"></div>
+
+</body>
+<script>
+    var isBlue=false;
+    var blue=document.getElementById("mavi");
+    
+    setInterval(function(){
+        
+        if(isBlue){
+            blue.style.background='pink';
+        isBlue=false;}
+        else{
+             blue.style.background='yellow';
+            isBlue=true;
+        }        
+    },2000);
+    
+</script>
+
+</html>

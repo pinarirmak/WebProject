@@ -1,0 +1,14 @@
+.kutu{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    float: left;
+}
+#mavi{
+    background-color: blue;
+}
+#yeşil{
+    background-color: green;}
+#sari{
+    background-color: yellow;
+}
